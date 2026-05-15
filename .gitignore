@@ -1,0 +1,18 @@
+cd ~/PycharmProjects/tcga-luad-smoking-mutational-signatures
+
+cat > .gitignore << 'EOF'
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+logs/
+*.log
+EOF
+
+git init
+git add .
+git commit -m "Initial commit"
+
+git branch -M main
+git remote add origin https://github.com/MiJen27/tcga-luad-mutational-signatures.git
+git push -u origin main
