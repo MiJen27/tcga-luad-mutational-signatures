@@ -2,7 +2,14 @@
 
 This repository contains the split notebook workflow used for the TCGA-LUAD mutational signature analysis. The analysis focuses on the relationship between smoking status and mutational signature patterns in lung adenocarcinoma samples.
 
-The analysis was performed using **Python 3.10.18**.
+The analysis was performed using Python 3.10.18.
+
+The workflow is intended to be run in JupyterLab. If JupyterLab is not available on the system, it has to be installed first in order to open and run the notebooks. The remaining Python dependencies are installed from `requirements.txt` in the setup notebook.
+
+```bash
+python3 -m pip install jupyterlab
+python3 -m jupyter lab
+```
 
 ## Notebook order
 
